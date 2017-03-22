@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/w"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.steffy.tictactoe.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/one" android:textColor="?attr/actionModeSplitBackground"
+            android:textSize="50sp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/colorPrimary"
+            android:text="" />
+
+        <Button
+            android:id="@+id/two"
+            android:textSize="50sp" android:textColor="?attr/actionModeSplitBackground"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:background="@color/colorPrimary"
+            android:text="" />
+
+        <Button
+            android:id="@+id/three"
+            android:textSize="50sp"
+            android:layout_width="100dp"
+            android:layout_height="100dp" android:textColor="?attr/actionModeSplitBackground"
+            android:layout_marginLeft="15dp"
+            android:background="@color/colorPrimary"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/four"
+            android:textSize="50sp"
+            android:layout_width="100dp" android:textColor="?attr/actionModeSplitBackground"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:text="" />
+
+        <Button
+            android:id="@+id/five"
+
+            android:textSize="50sp"
+            android:layout_width="100dp"
+            android:layout_height="100dp" android:textColor="?attr/actionModeSplitBackground"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:text="" />
+
+        <Button
+            android:id="@+id/six"
+            android:layout_width="100dp"
+            android:textSize="50sp"
+
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp" android:textColor="?attr/actionModeSplitBackground"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/seven"
+            android:layout_width="100dp" android:textColor="?attr/actionModeSplitBackground"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:textSize="50sp"
+            android:background="@color/colorPrimary"
+            android:text="" />
+
+        <Button
+            android:id="@+id/eight"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="50sp"
+            android:layout_marginTop="10dp"
+            android:textColor="?attr/actionModeSplitBackground" android:background="@color/colorPrimary"
+            android:text="" />
+
+        <Button
+            android:id="@+id/nine"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:textSize="50sp"
+            android:text=""
+            android:elevation="0dp"
+            android:textColor="?attr/actionModeSplitBackground" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dialogue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:text="Click any Button to Start the Game!!!!!"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+</LinearLayout>
